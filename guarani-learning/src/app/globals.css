@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 255 255 255;
+    --foreground: 0 0 0;
+    --primary: 76 175 80;
+    --primary-foreground: 255 255 255;
+    --secondary: 139 195 74;
+    --accent: 67 160 71;
+  }
+
+  .dark {
+    --background: 0 0 0;
+    --foreground: 255 255 255;
+    --primary: 76 175 80;
+    --primary-foreground: 255 255 255;
+    --secondary: 139 195 74;
+    --accent: 67 160 71;
+  }
+}
+
+@layer base {
+  body {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+  }
+}
